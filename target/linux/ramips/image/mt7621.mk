@@ -571,7 +571,7 @@ TARGET_DEVICES += mqmaker_witi-256m
 
 define Device/mqmaker_witi-512m
   DTS := WITI-512M
-  IMAGE_SIZE := $(ralink_default_fw_size_16M)
+  IMAGE_SIZE := $(ralink_default_fw_size_32M)
   DEVICE_TITLE := MQmaker WiTi (512MB RAM)
   DEVICE_PACKAGES := \
 	kmod-ata-core kmod-ata-ahci kmod-mt76x2 kmod-sdhci-mt7620 kmod-usb3 \
